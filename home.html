@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Netflix</title>
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="nav">
+      <div class="nav__left">
+        <a href="home.html"> <img class="nav_logo" src="images/logo.png" /></a>
+      </div>
+    </div>
+
+    <!-- banner -->
+    <header id="banner">
+      <div id="banner__contents">
+        <h1 id="banner__title"></h1>
+        <div id="banner__buttons">
+          <button id="banner__button">Play</button>
+          <button id="banner__button">My List</button>
+        </div>
+        <p id="banner__description"></p>
+      </div>
+      <div id="banner__fadeBottom"></div>
+    </header>
+
+    <!-- row -->
+    <div id="headrow">
+      <div class="row">
+        <h2 class="row__title"></h2>
+        <div class="row__posters"></div>
+      </div>
+    </div>
+ <!-- FOOTER SECTION STARTS -->
+ <footer>
+    <h5>Questions? Contact us.</h5>
+    <div class="content">
+        <div class="middle box">
+            <div><a href="#">FAQ</a></div>
+            <div><a href="#">Help Center</a></div>
+            <div><a href="#">Account</a></div>
+            <div><a href="#">Media Center</a></div>
+            <div><a href="#">Investor Relations</a></div>
+            <div><a href="#">Jobs</a></div>
+            <div><a href="#">Ways to Watch</a></div>
+            <div><a href="#">Terms of Use</a></div>
+            <div><a href="#">Privacy</a></div>
+            <div><a href="#">Cookie Preferences</a></div>
+            <div><a href="#">Corporate Information</a></div>
+            <div><a href="#">Contact Us</a></div>
+            <div><a href="#">Speed Test</a></div>
+            <div><a href="#">Legal Notices</a></div>
+            <div><a href="#">Only on Netflix</a></div>
+            <br><br>
+            <br><br>
+        </div>
+        <p>Netflix</p>
+</footer>
+<!-- FOOTER SECTION ENDS -->
+
+
+    <script>
+      window.addEventListener("scroll", function () {
+        var nav = document.querySelector(".nav");
+        nav.classList.toggle("active", window.scrollY > 0);
+      });
+    </script>
+    <script src="js/home.js"></script>
+  </body>
+</html>

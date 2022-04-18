@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/signin-up.css" />
+    <link rel="icon" href="images/tab-icon.png" />
+    <title>Netflix</title>
+  </head>
+  <body>
+<div class="page">
+ <!-- HEADER SECTION STARTS -->
+  <header class="showcase">
+    <!-- NAVBAR -->
+    <nav class="showcase-top">
+     <a href="index.html">   <img id="logo" src="images/logo.png"></a>
+    </nav>
+ </header>
+    <div class="signup-div form--hidden" id="signupform">
+        <form class="login">
+            <h1>Sign Up</h1>
+            <div class="input-text">
+              <input
+                type="text"
+                id="inputEmail"
+                name="email"
+                placeholder="First Name"
+                onfocus="inputOnFocus(this)"
+                onblur="inputOnBlur(this)"
+              />
+            </div>
+          <div class="input-text">
+            <input
+              type="text"
+              id="inputEmail"
+              name="email"
+              placeholder="Email or phone number"
+              onfocus="inputOnFocus(this)"
+              onblur="inputOnBlur(this)"
+            />
+          </div>
+
+          <div class="input-text">
+            <input
+              type="password"
+              id="inputPassword"
+              name="password"
+              placeholder="Password"
+              onfocus="inputOnFocus(this)"
+              onblur="inputOnBlur(this)"
+            />
+          </div>
+
+          <div>
+            <button class="signup-button">Sign Up</button>
+          </div>
+          <div class="new-members">
+           Already a User? <a href="login.html" class="signin-link" id="linksignin">Sign in now</a>.
+          </div>
+          <div class="protection color_link help">
+            This page is protected by Google reCAPTCHA to ensure you're not a
+            bot. <a href="#">Learn more.</a>
+          </div>
+        </form>
+    </div>
+  
+    <!-- FOOTER SECTION STARTS -->
+    <footer>
+        <h5>Questions? Contact us.</h5>
+        <div class="content">
+            <div class="middle box">
+                <div><a href="#">FAQ</a></div>
+                <div><a href="#">Help Center</a></div>
+                <div><a href="#">Account</a></div>
+                <div><a href="#">Media Center</a></div>
+                <div><a href="#">Investor Relations</a></div>
+                <div><a href="#">Jobs</a></div>
+                <div><a href="#">Ways to Watch</a></div>
+                <div><a href="#">Terms of Use</a></div>
+                <div><a href="#">Privacy</a></div>
+                <div><a href="#">Cookie Preferences</a></div>
+                <div><a href="#">Corporate Information</a></div>
+                <div><a href="#">Contact Us</a></div>
+                <div><a href="#">Speed Test</a></div>
+                <div><a href="#">Legal Notices</a></div>
+                <div><a href="#">Only on Netflix</a></div>
+                <br><br>
+                <br><br>
+            </div>
+            <p>Netflix</p>
+    </footer>
+</div>
+    <!-- FOOTER SECTION ENDS -->
+    <script src="js/signin-up.js"></script>
+  </body>
+</html>
